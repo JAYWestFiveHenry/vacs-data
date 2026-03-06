@@ -125,52 +125,67 @@
         "rows": 4,
         "keys": [
           {
-            "label": ["BR-W", "APP"]
+            "label": ["BR-W", "APP"],
+            "station_id": "ENBR_W_APP"
           },
           {
-            "label": ["BR", "DIR"]
+            "label": ["BR", "DIR"],
+            "station_id": "ENBR_D_APP"
           },
           {
-            "label": ["BR", "TWR"]
+            "label": ["BR", "TWR"],
+            "station_id": "ENBR_TWR"
           },
           {
-            "label": ["BR", "GND"]
+            "label": ["BR", "GND"],
+            "station_id": "ENBR_GND"
           },
           {
-            "label": ["BR-E", "APP"]
+            "label": ["BR-E", "APP"],
+            "station_id": "ENBR_E_APP"
           },
           {
             "label": []
           },
           {
-            "label": ["BR", "PLN", ""]
+            "label": ["BR", "PLN", ""],
+            "station_id": "ENBR_P_GND"
           },
           {
-            "label": ["BR", "DEL"]
+            "label": ["BR", "DEL"],
+            "station_id": "ENBR_DEL"
           },
           {
-            "label": ["ZV", "APP"]
+            "label": ["ZV", "APP"],
+            "station_id": "ENZV_APP"
           },
           {
-            "label": ["ZV", "TWR"]
+            "label": ["ZV", "ARR"],
+            "station_id": "ENZV_A_APP"
           },
           {
-            "label": ["ZV", "GND"]
+            "label": ["ZV", "TWR"],
+            "station_id": "ENZV_TWR"
           },
           {
-            "label": ["ZV", "ARR"]
+            "label": ["ZV", "GND"],
+            "station_id": "ENZV_GND"
           },
           {
-            "label": ["HD", "TWR"]
+            "label": ["HD", "TWR"],
+            "station_id": "ENHD_TWR"
           },
           {
-            "label": ["CN", "APP"]
+            "label": ["CN", "APP"],
+            "station_id": "ENCN_APP"
           },
           {
-            "label": ["FARRIS", "APP"]
+            "label": ["FARRIS", "APP"],
+            "station_id": "ENTO_APP"
           },
           {
-            "label": ["MØRE", "APP"]
+            "label": ["MØRE SOUTH", "APP"],
+            "station_id": "ENAL_APP"
           },
           {
             "label": []
@@ -193,19 +208,27 @@
         "rows": 5,
         "keys": [
           {
-            "label": ["FL", "AFIS"]
+            "label": ["FL", "AFIS"],
+            "station_id": "ENFL_I_TWR"
           },
           {
-            "label": ["SD", "AFIS"]
+            "label": ["SD", "AFIS"],
+            "station_id": "ENSD_I_TWR"
           },
           {
-            "label": ["SG", "AFIS"]
+            "label": ["SG", "AFIS"],
+            "station_id": "ENSG_I_TWR"
           },
           {
-            "label": ["BL", "AFIS"]
+            "label": ["BL", "AFIS"],
+            "station_id": "ENBL_I_TWR"
           },
           {
-            "label": ["SO", "AFIS"]
+            "label": ["SO", "AFIS"],
+            "station_id": "ENSO_I_TWR"
+          },
+          {
+            "label": []
           },
           {
             "label": []
@@ -217,16 +240,25 @@
             "label": []
           },
           {
+            "label": ["OV", "AFIS"],
+            "station_id": "ENOV_I_TWR"
+          },
+          {
+            "label": ["EKOFISK", "HFIS"],
+            "station_id": "ENLE_H_TWR"
+          },
+          {
+            "label": ["TAMPEN", "HFIS"],
+            "station_id": "ENGC_H_TWR"
+          },
+          {
             "label": []
           },
           {
-            "label": ["EKOFISK", "HFIS"]
+            "label": []
           },
           {
-            "label": ["TAMPEN", "HFIS"]
-          },
-          {
-            "label": ["OV", "AFIS"]
+            "label": []
           }
         ]
       }
